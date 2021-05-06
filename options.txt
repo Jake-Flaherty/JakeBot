@@ -1,0 +1,31 @@
+welcome to the options page for Jake Bot
+Jake Bot is currently in version 1.2
+
+Most recent updates are as follows:
+    # working pyaudio files thank god
+    # and this options file lmao
+    # added birthday and fixed voices
+
+All functions in the Jake Bot are as follows
+    # date recognition (coming soon is time and other time related functions)
+    # personal, which tells you about the Bot and me
+    # os shutdown / say shutdown and it turns the computer off
+    # cpu usage and tempurature commands
+    # telling you a joke
+    # changing voice to male or female (default is female)
+    # birthdays command
+    # and a closing command
+
+Credit where credit is due -- Praveen on github did this far before me, and i reused
+some of his code as it was more concise, but most of this i did by myself
+
+Feel free to use this code i dont care lol
+
+Love, Jake from Wilson
+
+Currently known bugs -- script will break after not understanding you
+ERROR CODE = AttributeError: 'NoneType' object has no attribute 'lower' [] going to be fixed in version 2.0
+
+Cannot figure out VENV ... could be user error lol
+
+"Male" being read as "mail" and "voice" function does not work [x] fixed in version 1.2
