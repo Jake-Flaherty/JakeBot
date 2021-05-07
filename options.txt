@@ -1,5 +1,5 @@
 welcome to the options page for Jake Bot
-Jake Bot is currently in version 1.2
+Jake Bot is currently in version 2.0
 
 Most recent updates are as follows:
     # working pyaudio files thank god
@@ -24,7 +24,8 @@ Feel free to use this code i dont care lol
 Love, Jake from Wilson
 
 Currently known bugs -- script will break after not understanding you
-ERROR CODE = AttributeError: 'NoneType' object has no attribute 'lower' [] going to be fixed in version 2.0
+ERROR CODE = AttributeError: 'NoneType' object has no attribute 'lower' [x] going to be fixed in version 2.0
+Simple fix!
 
 Cannot figure out VENV ... could be user error lol
 
