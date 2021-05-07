@@ -53,6 +53,7 @@ print(Fore.GREEN + '░╚════╝░╚═╝░░╚═╝╚═╝░
 print(Style.RESET_ALL)
 print(Back.RED + 'THIS WAS MADE BY JAKE ANDREW FLAHERTY')
 print(Back.RED + 'HIS EMAIL IS JAKEAFLAHERTY@YAHOO.COM')
+print(Style.RESET_ALL)
 
 welcomeHome()
 
@@ -199,12 +200,17 @@ def temp():
 
 def personal():
     speak(
-        "I am Jake Bot, I was made by the great Jake from Wilson North Carolina and do not do much, currently this is version 1.2")
+        "I am Jake Bot, I was made by the great Jake from Wilson North Carolina and do not do much, currently this is version 2.0")
 
 
 if __name__ == "__main__":
     while (True):
+
+        if (takeCommand() is None):
+            takeCommand()
+
         query = takeCommand().lower()
+
 
         if ('date' in query):
             date()
